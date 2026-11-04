@@ -1,0 +1,18 @@
+HQ-CORE#show spanning-tree vlan 10
+! Baseline captured 2026-11-04 (healthy network)
+VLAN0010
+  Spanning tree enabled protocol ieee
+  Root ID    Priority    24586
+             Address     0060.3E7B.1796
+             This bridge is the root
+             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24586  (priority 24576 sys-id-ext 10)
+             Address     0060.3E7B.1796
+             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  20
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/0/2          Desg FWD 4         128.2    P2p
+Gi1/0/3          Desg FWD 4         128.3    P2p

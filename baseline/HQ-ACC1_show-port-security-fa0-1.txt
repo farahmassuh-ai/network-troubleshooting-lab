@@ -1,0 +1,14 @@
+HQ-ACC1#show port-security interface fa0/1
+! Baseline captured 2026-11-04 (healthy network). Port of HQ-PC1.
+Port Security              : Enabled
+Port Status                : Secure-up
+Violation Mode             : Restrict
+Aging Time                 : 0 mins
+Aging Type                 : Absolute
+SecureStatic Address Aging : Disabled
+Maximum MAC Addresses      : 1
+Total MAC Addresses        : 1
+Configured MAC Addresses   : 0
+Sticky MAC Addresses       : 1
+Last Source Address:Vlan   : 00D0.BA88.0781:10
+Security Violation Count   : 0

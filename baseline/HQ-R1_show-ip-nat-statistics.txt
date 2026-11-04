@@ -1,0 +1,8 @@
+HQ-R1#show ip nat statistics
+! Baseline captured 2026-11-04 (healthy network), right after HQ-PC1 pinged 198.51.100.10
+Total translations: 4 (0 static, 4 dynamic, 4 extended)
+Outside Interfaces: GigabitEthernet0/0/0
+Inside Interfaces: GigabitEthernet0/0/1 , GigabitEthernet0/0/2
+Hits: 32  Misses: 36
+Expired translations: 32
+Dynamic mappings:

@@ -1,0 +1,6 @@
+HQ-R1#show ip interface brief
+! Baseline captured 2026-11-04 (healthy network)
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0/0   203.0.113.2     YES manual up                    up
+GigabitEthernet0/0/1   10.0.0.1        YES manual up                    up
+GigabitEthernet0/0/2   10.1.0.1        YES manual up                    up

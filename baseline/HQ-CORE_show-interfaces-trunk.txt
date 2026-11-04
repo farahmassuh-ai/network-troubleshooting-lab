@@ -1,0 +1,17 @@
+HQ-CORE#show interfaces trunk
+! Baseline captured 2026-11-04 (healthy network)
+Port        Mode         Encapsulation  Status        Native vlan
+Gig1/0/2    on           802.1q         trunking      1
+Gig1/0/3    on           802.1q         trunking      1
+
+Port        Vlans allowed on trunk
+Gig1/0/2    10,20,30,99
+Gig1/0/3    10,20,30,99
+
+Port        Vlans allowed and active in management domain
+Gig1/0/2    10,20,30,99
+Gig1/0/3    10,20,30,99
+
+Port        Vlans in spanning tree forwarding state and not pruned
+Gig1/0/2    10,20,30,99
+Gig1/0/3    10,20,30,99

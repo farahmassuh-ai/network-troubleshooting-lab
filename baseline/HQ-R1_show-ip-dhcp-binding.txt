@@ -1,0 +1,10 @@
+HQ-R1#show ip dhcp binding
+! Baseline captured 2026-11-04 (healthy network)
+IP address       Client-ID/              Lease expiration        Type
+                 Hardware address
+10.1.10.11       00D0.BA88.0781           --                     Automatic
+10.1.10.12       0001.6418.1341           --                     Automatic
+10.1.20.11       0060.2F0E.760B           --                     Automatic
+10.1.20.12       0002.1775.7744           --                     Automatic
+10.2.10.11       00D0.BC2D.8E29           --                     Automatic
+10.2.20.11       00D0.D38B.729A           --                     Automatic

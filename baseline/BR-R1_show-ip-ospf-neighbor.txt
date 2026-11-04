@@ -1,0 +1,5 @@
+BR-R1#show ip ospf neighbor
+! Baseline captured 2026-11-04 (healthy network)
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+1.1.1.1           1   FULL/BDR        00:00:38    10.0.0.1        GigabitEthernet0/0/0
