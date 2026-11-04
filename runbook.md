@@ -52,4 +52,6 @@ First commands to run for common symptoms on this network. Version 1, written be
 - **`--More--`:** Packet Tracer doesn't support `terminal length 0`. Press Space to page through, or the rest of the output is lost.
 - **Prompt `>` vs `#`:** some commands need privileged mode. Type `enable` first.
 - **Interface status tells you who broke it** (INC-001): `administratively down` means someone typed `shutdown`; `down/down` points to the cable or the device at the other end.
+- **A trunk has two ends** (INC-002): check `show interfaces trunk` on both switches. If one side drops a VLAN, only that VLAN breaks, and only through that trunk. Change trunks with `allowed vlan add`/`remove`, never the plain command.
+- **Compare the working user with the broken one** (INC-002): whatever they share is ruled out; the fault is in what's different.
 - **Compare, don't guess:** run the same command as the baseline file and look for the line that changed.
