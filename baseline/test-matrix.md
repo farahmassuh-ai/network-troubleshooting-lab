@@ -4,6 +4,8 @@ Known-good results recorded on 2026-11-04, before any faults were injected. Reru
 
 **Baseline result: all 12 rows pass.**
 
+**Final rerun after INC-001 to INC-005 were fixed (2026-11-04): all 12 rows pass.** The only expected difference: HQ-GUEST2's lease changed from 10.1.20.12 to 10.1.20.19 after INC-002.
+
 PCs and servers start TTL at 128; routers and switches start at 255. Each routing hop subtracts 1. A first ping that times out is normal: the sender is resolving ARP.
 
 | # | Test | Expected | Actual (baseline) | Pass |
