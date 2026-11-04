@@ -6,6 +6,10 @@ A NOC-style troubleshooting lab in Cisco Packet Tracer. I added centralized logg
 
 *Amber devices were added for this project: SRV1 (syslog and NTP server) and HQ-GUEST2 (a second HQ guest PC).*
 
+![Lab topology in Packet Tracer](diagrams/network-troubleshooting-lab.png)
+
+*The same network running in Packet Tracer (`network-baseline.pkt`).*
+
 ---
 
 ## What this project demonstrates
