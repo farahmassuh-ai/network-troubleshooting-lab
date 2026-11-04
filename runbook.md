@@ -51,4 +51,5 @@ First commands to run for common symptoms on this network. Version 1, written be
 - **"Destination host unreachable" from a gateway** usually means the gateway refused to forward it (for example, an ACL), not that the destination is down.
 - **`--More--`:** Packet Tracer doesn't support `terminal length 0`. Press Space to page through, or the rest of the output is lost.
 - **Prompt `>` vs `#`:** some commands need privileged mode. Type `enable` first.
+- **Interface status tells you who broke it** (INC-001): `administratively down` means someone typed `shutdown`; `down/down` points to the cable or the device at the other end.
 - **Compare, don't guess:** run the same command as the baseline file and look for the line that changed.
