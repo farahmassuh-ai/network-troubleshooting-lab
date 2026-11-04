@@ -56,4 +56,5 @@ First commands to run for common symptoms on this network. Version 1, written be
 - **Compare the working user with the broken one** (INC-002): whatever they share is ruled out; the fault is in what's different.
 - **STP "inconsistent peer vlan" means native VLAN mismatch** (INC-003): run `show interfaces trunk` on both ends and compare the Native vlan column. Users may notice nothing, so the logs are the only clue.
 - **169.254.x.x means DHCP never answered** (INC-004): if only one VLAN is affected, check that VLAN's gateway for `ip helper-address` before touching the DHCP server.
+- **Whole site unreachable but the link is up** (INC-005): check `show ip ospf neighbor` on both routers. A missing neighbor removes every route at once. With `passive-interface default`, make sure the WAN interface still has `no passive-interface`.
 - **Compare, don't guess:** run the same command as the baseline file and look for the line that changed.
